@@ -231,6 +231,7 @@ wkhtmltopdf DOCUMENTATION.html DOCUMENTATION.pdf
 ```
 
 3) Alternativa programática em Python (requer pacotes adicionais): `markdown` + `weasyprint` ou `pdfkit`.
+   
 
 Se quiser, posso tentar gerar `DOCUMENTATION.pdf` aqui automaticamente. Preciso de autorização para instalar/usar `pandoc` ou pacotes Python (posso tentar uma conversão simples, mas pode falhar se o ambiente não tiver as dependências). Diga se quer que eu tente agora.
 
