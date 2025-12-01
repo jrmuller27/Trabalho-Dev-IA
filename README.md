@@ -56,6 +56,8 @@ A abordagem Item-Item apresenta vantagens importantes:
 * **Mais estável em datasets esparsos (como o MovieLens 100K)**
 * **Mais eficiente na inferência do que User-User**
 * **Evita problemas de usuários com poucas avaliações**
+
+
 ---
 
 
@@ -71,6 +73,7 @@ A Similaridade de Cosseno:
 * **Funciona muito bem com matrizes esparsas**
 * **Ignora a magnitude das notas e foca na orientação dos vetores**
 * **Favorece recomendações baseadas em padrões de gosto, e não na nota absoluta**
+  
 ---
 
 
@@ -88,18 +91,20 @@ Isso garante:
 
 ---
 
+
 ## 🚀 Guia de Instalação e Execução
 
 🔹Execução via Docker
 
 1. Construir a imagem:
 
-<img width="650" height="150" alt="cmd-4" src="https://github.com/user-attachments/assets/f02a032f-fd8e-4dfb-99a2-c04e9740a623" />
+<img width="544" height="125" alt="cmd-4" src="https://github.com/user-attachments/assets/f02a032f-fd8e-4dfb-99a2-c04e9740a623" />
 
 2. Rodar o container:
-<img width="650" height="150" alt="cmd-5" src="https://github.com/user-attachments/assets/ac0e347a-74c0-47cf-9109-5083122e495d" />
+<img width="544" height="125" alt="cmd-5" src="https://github.com/user-attachments/assets/ac0e347a-74c0-47cf-9109-5083122e495d" />
 
 A API estará disponível em: http://localhost:8000
+
 
 ---
 
@@ -112,8 +117,11 @@ A API estará disponível em: http://localhost:8000
 
 ---
 
+
+
+
 ## 🧪 Testes Automatizados
 
 O projeto inclui uma suíte de testes de integração para garantir a robustez da aplicação. 
 
-<img width="650" height="150" alt="cmd-6" src="https://github.com/user-attachments/assets/f86c0b7c-0d78-487b-a85d-663a94e115d4" />
+<img width="544" height="125" alt="cmd-6" src="https://github.com/user-attachments/assets/f86c0b7c-0d78-487b-a85d-663a94e115d4" />
